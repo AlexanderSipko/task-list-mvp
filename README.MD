@@ -2,7 +2,7 @@
 
 ## Архитектура проекта
 
-📋 [Просмотреть схему архитектуры](https://img.shields.io/badge/📊-Open_Architecture_Diagram-6C47FF)](https://excalidraw.com/#json=https://raw.githubusercontent.com/AlexanderSipko/task-list-mvp/main/shema.excalidraw)
+📋 [Просмотреть схему архитектуры](https://excalidraw.com/#json=https://raw.githubusercontent.com/AlexanderSipko/task-list-mvp/main/shema.excalidraw)
 
 ## 📋 О проекте
 
