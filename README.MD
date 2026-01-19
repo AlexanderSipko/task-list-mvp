@@ -2,7 +2,7 @@
 
 ## Архитектура проекта
 
-📋 [Просмотреть схему архитектуры](https://excalidraw.com/#json=https://raw.githubusercontent.com/AlexanderSipko/task-list-mvp/main/shema.excalidraw)
+📋 <a href="https://excalidraw.com/#json=https://raw.githubusercontent.com/AlexanderSipko/task-list-mvp/main/shema.excalidraw" target="_blank">Просмотреть схему архитектуры</a>
 
 ## 📋 О проекте
 
