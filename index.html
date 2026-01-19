@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div id="app">
+      <p>MPV structure example TO-DO</p>
+      <div class="show-task-count">
+        <p id="count-tasks"></p>
+      </div>
+      <form id="task-form" class="task-form">
+        <input
+          id="task-input"
+          class="task-input"
+          placeholder="Введите задачу"
+        />
+        <button class="task-add-button" type="submit">Добавить</button>
+      </form>
+      <ul class="task-list" id="task-list"></ul>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <!-- <script>
+      let tasks = []
+
+      function addTask() {
+        const form = document.getElementById("task-form")
+        const input = document.getElementById('task-input')
+        const value = form['task-input'].value
+        if (value) {
+          tasks.push({
+            id: Date.now(),
+            title: value,
+            done: false
+          })
+        input.value = ''
+        render();
+        }
+      }
+
+      function deleteTask(id) {
+        tasks = tasks.filter(task => task.id !== id)
+        render()
+      }
+
+      function render() {
+        const list = document.getElementById('task-list')
+        list.innerHTML = tasks.map((task, i) => {
+          return `
+            <li class="task-item" id=task-${task.id}>
+              <span>${task.title}</span>
+              <span class="remove-btn" onclick="deleteTask(${task.id})">x</span>
+            </li>
+          `
+        }).join('')
+      }
+
+    </script> -->
+  </body>
+</html>
